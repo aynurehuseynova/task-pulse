@@ -1,0 +1,688 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 70px;
+  position: fixed;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+header nav {
+  width: 100%;
+}
+header nav a h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  color: white;
+}
+header nav a h1 span {
+  color: #FFC515;
+}
+header nav .menu {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+header nav .menu .list {
+  width: 85%;
+  gap: 20px;
+}
+header nav .menu .list li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  line-height: 24px;
+  transition: 0.5s;
+}
+header nav .menu .list li a:hover {
+  transition: 0.5s;
+  color: #FFC515;
+}
+header nav .reservations {
+  width: 100%;
+  min-height: 70px;
+}
+
+#formValidetion {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 70px;
+  position: fixed;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+header nav {
+  width: 100%;
+}
+header nav a h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  color: white;
+}
+header nav a h1 span {
+  color: #FFC515;
+}
+header nav .menu {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+header nav .menu .list {
+  width: 85%;
+  gap: 20px;
+}
+header nav .menu .list li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  line-height: 24px;
+  transition: 0.5s;
+}
+header nav .menu .list li a:hover {
+  transition: 0.5s;
+  color: #FFC515;
+}
+header nav .reservations {
+  width: 100%;
+  min-height: 70px;
+}
+
+#product-sec {
+  display: flex;
+  min-height: 900px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#product-sec #getProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#product-sec #getProduct button {
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 70px;
+  position: fixed;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+header nav {
+  width: 100%;
+}
+header nav a h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  color: white;
+}
+header nav a h1 span {
+  color: #FFC515;
+}
+header nav .menu {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+header nav .menu .list {
+  width: 85%;
+  gap: 20px;
+}
+header nav .menu .list li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  line-height: 24px;
+  transition: 0.5s;
+}
+header nav .menu .list li a:hover {
+  transition: 0.5s;
+  color: #FFC515;
+}
+header nav .reservations {
+  width: 100%;
+  min-height: 70px;
+}
+
+#Food-and-more {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/slider-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+}
+#Food-and-more .number {
+  border: 1px solid rgb(145, 145, 145);
+  width: 30%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Food-and-more .number ul {
+  list-style-type: none;
+}
+#Food-and-more .number ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: white;
+}
+#Food-and-more .food {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Food-and-more .food h1 {
+  font-size: 110px;
+  line-height: 110px;
+  font-weight: 500;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  color: white;
+}
+#Food-and-more .food h1 span {
+  color: #FFC515;
+}
+#Food-and-more .food .chef {
+  width: 65%;
+  min-height: 100px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1024px) {
+  #Food-and-more .food h1 {
+    font-size: 90px;
+  }
+}
+@media only screen and (max-width: 776px) {
+  #Food-and-more .food h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  #Food-and-more .food h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #Food-and-more .food h1 {
+    font-size: 40px;
+  }
+}
+#welcome {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#welcome .headersection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#welcome .headersection i {
+  font-size: 90px;
+}
+#welcome .headersection .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#welcome .headersection .header .divline {
+  width: 30%;
+  height: 2px;
+  background-color: #FFC515;
+}
+#welcome .In-vitae-nisi-aliquam {
+  width: 100%;
+}
+#welcome .In-vitae-nisi-aliquam .year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+#welcome .In-vitae-nisi-aliquam .year h5 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #1b1a1a;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 500;
+  min-height: 60px;
+}
+#welcome .In-vitae-nisi-aliquam .year p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #7e7e7e;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+#welcome .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#testimonials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/review-bg\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+#testimonials .headertestimonials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+#testimonials .headertestimonials i {
+  font-size: 60px;
+  color: white;
+}
+#testimonials .headertestimonials .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#testimonials .headertestimonials .header h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+}
+#testimonials .headertestimonials .header .divline {
+  width: 25%;
+  height: 2px;
+  background-color: #FFC515;
+}
+#testimonials .paragraf {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#testimonials .paragraf p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: white;
+  font-family: HelveticaNeueLTPro, sans-serif;
+}
+#testimonials .paragraf h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: white;
+  font-family: HelveticaNeueLTPro, sans-serif;
+}
+#testimonials .paragraf h6 span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #FFC515;
+  font-family: HelveticaNeueLTPro, sans-serif;
+}
+
+@media only screen and (max-width: 779px) {
+  #testimonials .headertestimonials i {
+    font-size: 40px;
+  }
+  #testimonials .headertestimonials .header h1 {
+    font-size: 38px;
+  }
+  #testimonials .paragraf p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 502px) {
+  #testimonials .headertestimonials i {
+    font-size: 30px;
+  }
+  #testimonials .headertestimonials .header h1 {
+    font-size: 28px;
+  }
+  #testimonials .paragraf p {
+    font-size: 13px;
+  }
+}
+#our-services {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#our-services .menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#our-services .menu i {
+  font-size: 90px;
+}
+#our-services .menu .header {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#our-services .menu .header .divline {
+  width: 30%;
+  height: 2px;
+  background-color: #FFC515;
+}
+#our-services .text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#our-services .text i {
+  font-size: 40px;
+}
+#our-services .text .year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+#our-services .text .year h4 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #1b1a1a;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 500;
+  min-height: 60px;
+}
+#our-services .text .year p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #7e7e7e;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 70%;
+}
+
+@media only screen and (max-width: 750px) {
+  #our-services .menu i {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  #our-services .menu i {
+    font-size: 35px;
+  }
+  #our-services .menu h1 {
+    font-size: 20px;
+  }
+  #our-services .menu .year h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  #our-services .menu i {
+    font-size: 30px;
+  }
+  #our-services .menu h1 {
+    font-size: 15px;
+  }
+  #our-services .menu .year h4 {
+    font-size: 17px;
+  }
+  #our-services .menu .year p {
+    font-size: 10px;
+  }
+}
+#our-Menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/menu-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+#our-Menu .headertestimonials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#our-Menu .headertestimonials i {
+  font-size: 50px;
+  color: white;
+}
+#our-Menu .headertestimonials .header {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#our-Menu .headertestimonials .header h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+}
+#our-Menu .headertestimonials .header .divline {
+  width: 30%;
+  height: 2px;
+  background-color: #FFC515;
+}
+
+#product .boxDiv {
+  margin-bottom: 20px;
+}
+
+#contact-us {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/slider-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+#contact-us .headertestimonials {
+  background-color: white;
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#contact-us .headertestimonials i {
+  font-size: 90px;
+}
+#contact-us .headertestimonials .header {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#contact-us .headertestimonials .header h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+}
+#contact-us .headertestimonials .header .divline {
+  width: 30%;
+  height: 2px;
+  padding: 7px 15px 7px 15px;
+  background-color: #FFC515;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+header nav {
+  width: 100%;
+}
+header nav a h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  color: white;
+}
+header nav a h1 span {
+  color: #ffc815;
+}
+header nav .menu {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+header nav .menu .list {
+  width: 85%;
+  gap: 20px;
+}
+header nav .menu .list li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  line-height: 24px;
+  transition: 0.5s;
+}
+header nav .menu .list li a:hover {
+  transition: 0.5s;
+  color: #FFC515;
+}
+header nav .reservations {
+  width: 100%;
+  min-height: 70px;
+}
+
+#wishlisted {
+  display: flex;
+  min-height: 900px;
+  align-items: center;
+  justify-content: center;
+}
+#wishlisted #wishList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#wishlisted #wishList button {
+  background-color: black;
+  color: white;
+}

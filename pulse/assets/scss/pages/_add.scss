@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    min-height: 70px;
+    position: fixed;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    nav {
+        width: 100%;
+
+        a {
+            h1 {
+                color: black;
+                font-size: 36px;
+                font-weight: 500;
+                font-family: HelveticaNeueLTPro, sans-serif;
+                ;
+                color: white;
+
+                span {
+                    color: #FFC515;
+                }
+            }
+        }
+
+        .menu {
+            width: 100%;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            .list {
+                width: 85%;
+                gap: 20px;
+
+                li {
+                    a {
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: HelveticaNeueLTPro, sans-serif;
+                        line-height: 24px;
+                        transition: 0.5s;
+
+                        &:hover {
+                            transition: 0.5s;
+                            color: #FFC515;
+                        }
+                    }
+                }
+            }
+        }
+
+        .reservations {
+            width: 100%;
+            min-height: 70px;
+        }
+    }
+}
+#formValidetion{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
